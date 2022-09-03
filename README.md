@@ -8,7 +8,9 @@
 [![PyPI](https://img.shields.io/pypi/v/pylettes)](https://pypi.org/project/pylettes/)
 [![Licence](https://img.shields.io/github/license/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/blob/main/LICENSE)
 [![GitHub top language](https://img.shields.io/github/languages/top/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/search?l=python)
+[![Palettes count](https://img.shields.io/badge/palettes%20count-40-9cf)]()
 <!-- [![Documentation Status](https://readthedocs.org/projects/pylettes-cluster/badge/?version=latest)](https://pylettes-cluster.#readthedocs.io/en/latest/?badge=latest) -->
+
 
 
 `pylettes` is a lightweight `matplotlib`-compatible collection of beautiful palettes for Python 3.
@@ -46,7 +48,7 @@ The list of colors can be visualized as a continuous scale by providing the `con
     Acapulco2Paris().show_colors(continuous=True)
 <img src="docs/figs/acapulco_colors_continuous.png" width=400, padding=100>
 
-Palettes can be reversed with activating the `reverse` flag upon initialization.
+Palettes can be reversed by activating the `reverse` flag upon initialization.
 
     Acapulco2Paris(reverse=True).show_colors()
 <img src="docs/figs/acapulco_colors_reverse.png" width=400, padding=100>

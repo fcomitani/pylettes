@@ -96,15 +96,6 @@ class IBM(Palette):
     tags = ['sequential', 'IBM', 'colorblind']
 
 
-class IBM(Palette):
-    """ IBM - 220902 
-    IBM Design Library
-    """
-
-    colors = ('#648FFF', '#785EF0', '#DC267F', '#FE6100', '#FFB000')
-    tags = ['sequential', 'IBM', 'colorblind']
-
-
 class ColorHunt00(Palette):
     """ ColorHunt00: - 220903
     Color Hunt Favourite Palettes
