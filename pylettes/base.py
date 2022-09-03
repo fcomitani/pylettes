@@ -106,8 +106,6 @@ class Palette:
             save_name += '.png' if not save_name.endswith('.png') else ''
             plt.savefig(save_name, dpi=300, bbox_inches='tight')
 
-        plt.show()
-
 
 if __name__ == "__main__":
     pass
