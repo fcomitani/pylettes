@@ -8,6 +8,13 @@ from pylettes.base import Palette
 
 class TestPalettes:
 
+    def test_utils(self) -> None:
+
+        list_all_palettes()
+        list_palettes_by_tag('sequential')
+        list_palettes_by_tag('categorical')
+        list_palettes_by_tag('colorblind')
+        
     @pytest.mark.parametrize("palette", list_all_palettes())
     def test_attributes(self, palette: Palette) -> None:
 
