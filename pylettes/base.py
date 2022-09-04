@@ -14,11 +14,6 @@ class Palette:
 
         return self.__class__.__name__
 
-    def __repr__(self):
-        """ String representation. """
-
-        return self.name
-
     @property
     @abstractmethod
     def colors(self) -> Tuple:
@@ -33,11 +28,6 @@ class Palette:
 
         raise NotImplementedError
 
-    @classmethod
-    def __len__(cls) -> None:
-        """ The palette length. """
-        return len(cls.colors)
-
     def __init__(self, reverse: bool = False) -> None:
         """ Initialize the palette class
         by building it as cmap. 
@@ -49,6 +39,15 @@ class Palette:
             self.colors = self.colors[::-1]
         self.cmap = LinearSegmentedColormap.from_list(self.name,
                                                       self.colors)
+                                                      
+    def __len__(self) -> None:
+        """ The palette length. """
+        return len(self.colors)
+ 
+    def __repr__(self):
+        """ String representation. """
+
+        return self.name
 
     @classmethod
     def to_rgb(cls, colors: Union[Collection[str], str], unit: bool = False) \
