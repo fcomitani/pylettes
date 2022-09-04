@@ -16,6 +16,7 @@ setup(
 
     description='Beautiful palettes in Python',
     long_description=long_description,
+    long_description_content_type='text/markdown',
 
     url='https://github.com/fcomitani/pylettes',
 	download_url = 'https://github.com/fcomitani/pylettes/archive/'+version+'.tar.gz', 

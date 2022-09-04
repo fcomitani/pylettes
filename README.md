@@ -8,7 +8,6 @@
 [![Licence](https://img.shields.io/github/license/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/blob/main/LICENSE)
 [![GitHub top language](https://img.shields.io/github/languages/top/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/search?l=python)
 [![Palettes count](https://img.shields.io/badge/palettes%20count-40-9cf)](https://github.com/fcomitani/pylettes/blob/main/docs/figs/all_palettes.png)
-<!-- [![Documentation Status](https://readthedocs.org/projects/pylettes-cluster/badge/?version=latest)](https://pylettes-cluster.#readthedocs.io/en/latest/?badge=latest) -->
 
 `pylettes` is a lightweight `matplotlib`-compatible collection of beautiful palettes for Python 3.
 
@@ -62,13 +61,6 @@ For example, you can inspect all colorblind-friendly palettes with
 
     show_multiple_palettes(list_palettes_by_tag('colorblind'))
 
-
-<!-- ### Citation
-
-When using this library, please cite
-
--->
-
 ### Contributions
 
 I plan to keep this library updated and add more options with time. 
@@ -76,3 +68,4 @@ I plan to keep this library updated and add more options with time.
 New palette submissions are welcome!
 Submitting a palette is easy, all you need is a name,
 the list of colors in hex format and associated tags.
+
