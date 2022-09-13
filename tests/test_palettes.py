@@ -21,6 +21,10 @@ class TestPalettes:
         palette.name
         palette.colors
         palette.tags
+        
+        len(palette())
+        str(palette())
+        palette()[0]	
 
         palette().show_colors()
         palette().show_colors(continuous=True)

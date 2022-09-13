@@ -1,13 +1,13 @@
 <img src="docs/figs/pylettes_logo.png" width=400, padding=100>
 
 ## Pylettes
-### v0.1.0
+### v0.2.0
 
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/releases/tag/v0.1.0)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/releases/tag/v0.2.0)
 [![PyPI](https://img.shields.io/pypi/v/pylettes)](https://pypi.org/project/pylettes/)
 [![Licence](https://img.shields.io/github/license/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/blob/main/LICENSE)
 [![GitHub top language](https://img.shields.io/github/languages/top/fcomitani/pylettes)](https://github.com/fcomitani/pylettes/search?l=python)
-[![Palettes count](https://img.shields.io/badge/palettes%20count-40-9cf)](https://github.com/fcomitani/pylettes/blob/main/docs/figs/all_palettes.png)
+[![Palettes count](https://img.shields.io/badge/palettes%20count-42-9cf)](https://github.com/fcomitani/pylettes/blob/main/docs/figs/all_palettes.png)
 
 `pylettes` is a lightweight `matplotlib`-compatible collection of beautiful palettes for Python 3.
 
@@ -35,6 +35,10 @@ They can be transformed into `matplotlib` color maps by instantiating the class 
     from pylettes import Acapulco2Paris
 
     custom_cmap = Acapulco2Paris().cmap
+
+Single colors can be directly accessed by index.
+
+    first_color = Acapulco2Paris()[0]
 
 The `show_colors` method allows you to visualize and inspect any palette.
 

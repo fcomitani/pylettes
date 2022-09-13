@@ -42,12 +42,22 @@ class Palette:
                                                       
     def __len__(self) -> None:
         """ The palette length. """
+
         return len(self.colors)
  
     def __repr__(self):
         """ String representation. """
 
         return self.name
+
+    def __getitem__(self, i: int) -> str:
+        """ Make palette indexable. 
+        
+        :param i: int, index number.
+        :return: str, the selected color.
+        """
+
+        return self.colors[i]
 
     @classmethod
     def to_rgb(cls, colors: Union[Collection[str], str], unit: bool = False) \
